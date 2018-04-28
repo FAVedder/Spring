@@ -21,7 +21,7 @@ public class Application {
         controller.showView();
     }
     
-    @Bean
+    @Bean(name={"DeBoon", "BoontjeKomtOmZijnLoontje"})
     public View getView() {
         View view = null;
         String viewInt = null;

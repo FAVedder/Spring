@@ -3,7 +3,7 @@ package app;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("DeEersteView")
 @Primary
 public class View1 implements View{
     @Override
